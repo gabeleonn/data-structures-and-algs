@@ -1,3 +1,3 @@
-import { hello } from './data-structures';
+import { mergeSortedNumberArrays } from './challenges';
 
-console.log(hello);
+console.log(mergeSortedNumberArrays([0, 3, 4, 31], [4, 6, 30]));
