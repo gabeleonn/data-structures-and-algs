@@ -1,11 +1,5 @@
-import { BinarySearchTree } from './data-structures/tree/binary-search-tree';
+import { factorial } from './challenges/factorial/factorial';
+import { fibonacci } from './challenges/fibonacci/fibonacci';
 
-const tree = new BinarySearchTree();
-
-console.log(tree.toString());
-tree.insert(19);
-tree.insert(2);
-tree.insert(100);
-tree.insert(10);
-console.log(tree.toString());
-console.log(tree.search(100));
+console.log(factorial(5));
+console.log(fibonacci(6));
